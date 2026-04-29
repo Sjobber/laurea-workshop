@@ -2,36 +2,49 @@
     <html lang="en">
     <head>
         <title>My First HTML Page</title>
+    <style>
+        h1 {
+            color: green;
+        }
+    </style>
+    <link rel="stylesheet" href="main.css">
     </head>
     
     <body>
-        <h1>Welcome to my Page</h1>
+        <h1 style="color: red;">Welcome to my Page</h1>
         <p>This is a paragraph.</p>
-        <img src="image.jpg" alt="Graffiti">
-    <a href="https://www.laurea.fi">Visit Laurea</a>
+        <img src="./images/image.jpg" alt="Sample Image" class="filter-image">
+        <a href="https://www.laurea.fi">Visit Laurea</a>
 
-        <h2>Ordered List</h2>
-    <ol>
-        <li>First item</li>
-        <li>Second item</li>
-        <li>Third item</li>
-    </ol>
-    
-    <h2>Unordered List</h2>
-    <ul>
-        <li>First item</li>
-        <li>Second item</li>
-        <li>Third item</li>
+    <button class="transition-button">Hover me</button>
+
+    <div class="content-box">
+        <h2>Sample Heading</h2>
+        <p>This is a sample paragraph inside a div element.</p>
+    </div>
+
+    <blockquote class="quote">
+        This is a sample quote.
+      </blockquote>
         
-    </ul>
+    <h2>Ordered List</h2>
+        <ol>
+            <li>First item</li>
+            <li>Second item</li>
+            <li>Third item</li>
+        </ol>
+    <div class="animation-box"></div>
+        <h2>Unordered List</h2>
+            <ul class="pseudo-list">
+                <li>Item 1</li>
+                <li>Item 2</li>
+                <li>Item 3</li>
+                <li>Item 4</li>
+            </ul>
     <table>
     <tr>
         <th>Header 1</th>
         <th>Header 2</th>
-    </tr>
-    <tr>
-        <td>Row 1, Cell 1</td>
-        <td>Row 1, Cell 2</td>
     </tr>
     <tr>
         <td>Row 2, Cell 1</td>
